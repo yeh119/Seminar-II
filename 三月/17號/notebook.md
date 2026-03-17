@@ -11,7 +11,7 @@
 然後進到數學模型，本質其實就是從歐姆定律來的，R = ρL/A，阻抗 Z 也是類似概念。人體可以當作一個導體，血流改變會讓截面積 A 改變 → 阻抗改變 ΔZ。最後可以推到 stroke volume（SV）跟 dZ/dt 的最大值有關，公式大概是
 SV ≈ (ρb × L² / Z₀²) × LVET × (dZ/dt)_max
 所以其實就是用阻抗變化去間接估血液流量。
-
+![](https://github.com/yeh119/Seminar-II/blob/main/image/20260317_133627.jpg)
 接著講循環系統的部分，cardiac output（CO）就是
 CO = SV × HR（心跳率）
 傳統方法像是 Fick method 或 indicator dilution，但 bioimpedance 是非侵入式的方法，比較方便。
