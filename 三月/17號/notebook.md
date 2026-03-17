@@ -1,7 +1,7 @@
 ### 日期:3/17
 ### 題目:The Development and Applications of BioImpedance Technology
 ### 演講者:Kuo-Sheng Cheng, Ph.D.
-
+![](https://github.com/yeh119/Seminar-II/blob/main/image/20260317_133115.jpg)
 今天在講 Bioimpedance（生物阻抗），主要是在用電的方法去量人體的生理狀態。老師一開始先講這個技術可以做什麼，像是可以量體積變化（例如血流）、做 impedance plethysmography、impedance cardiography、甚至肺部的 impedance pneumography，也可以用來分析身體組成（body composition）、組織分類、組織監測，甚至到細胞層級的量測。
 ![](https://github.com/yeh119/Seminar-II/blob/main/image/20260317_133926.jpg)
 接著進到 bioimpedance 的方法，本質上就是在人體上加一個高頻小電流（大概 100 kHz），然後去量電壓變化來推阻抗。實驗配置是用電極貼在胸腔，會量到像 Z₀、ΔZ，還會搭配 ECG 跟心音（phonocardiogram）一起看，所以其實是多訊號同步分析。量測的訊號會包含 dZ/dt、ΔZ、ECG、心音、還有主動脈壓力跟血流，這些波形之間是有時間對應關係的。
