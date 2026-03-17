@@ -7,7 +7,7 @@
 接著進到 bioimpedance 的方法，本質上就是在人體上加一個高頻小電流（大概 100 kHz），然後去量電壓變化來推阻抗。實驗配置是用電極貼在胸腔，會量到像 Z₀、ΔZ，還會搭配 ECG 跟心音（phonocardiogram）一起看，所以其實是多訊號同步分析。量測的訊號會包含 dZ/dt、ΔZ、ECG、心音、還有主動脈壓力跟血流，這些波形之間是有時間對應關係的。
 
 老師有特別畫一張圖在講訊號，像 dZ/dt 的 peak（最大變化率）會對應到血液射出速度，然後可以抓出 LVET（left ventricle ejection time），也就是左心室射血時間，這在後面算 cardiac output 很重要。
-
+![](https://github.com/yeh119/Seminar-II/blob/main/image/20260317_133729.jpg)
 然後進到數學模型，本質其實就是從歐姆定律來的，R = ρL/A，阻抗 Z 也是類似概念。人體可以當作一個導體，血流改變會讓截面積 A 改變 → 阻抗改變 ΔZ。最後可以推到 stroke volume（SV）跟 dZ/dt 的最大值有關，公式大概是
 SV ≈ (ρb × L² / Z₀²) × LVET × (dZ/dt)_max
 所以其實就是用阻抗變化去間接估血液流量。
